@@ -1,0 +1,20 @@
+#include <iostream> //header file
+#include<cmath>
+#include<array>
+using std::cin;
+using std::cout;
+using std::endl;
+using std::string;
+
+int main(){
+	int Num_Array[26];
+	int k =1;
+	for (int i=0;i<26; i++)
+	{
+	 Num_Array[i]=i+k;
+	}
+	cout << sizeof(Num_Array)<<endl;
+	for (int j =0;j<26;j++){
+	}
+	return 0;
+}	 
